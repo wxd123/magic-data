@@ -1,7 +1,7 @@
 # 
-数据清洗工具
+视频生成工具
 
-[![PyPI version](https://badge.fury.io/py/magic-data.svg)](https://badge.fury.io/py/magic-data)
+[![PyPI version](https://badge.fury.io/py/magic-vedio.svg)](https://badge.fury.io/py/magic-vedio)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 
@@ -13,21 +13,21 @@
 
 ## 功能规划
 
-- **java**：   一行命令拉取java项目，检测许可证，执行数据清洗
-- **python**： 一行命令拉取python项目，检测许可证，执行数据清洗
-- **C++**：    一行命令拉取C++项目，检测许可证，执行数据清洗
+- **image**：  生成图片
+- **3d**： 生成3d场景
+- **vedio：    生成视频
 ...
 ## 安装
 
 ```bash
-pip install magic-data
+pip install magic-vedio
 ```
 ## 示例（待正式版本发布后补充）
 
 ```bash
-magic-data -java
-magic-data -python
-magic-data -c
+magic-vedio -image
+magic-vedio -3d
+magic-vedio -vedio
 ````
 ## 代码规范
 本项目遵循以下基本原则：

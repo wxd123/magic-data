@@ -3,7 +3,7 @@ requires = ["setuptools>=77.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "magic-data"
+name = "magic-vedio"
 version = "0.1.0"
 description = "占位包：Magic-data 一键数据清洗工具（即将推出）"
 readme = "README.md"
@@ -21,11 +21,13 @@ classifiers = [
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
 ]
-requires-python = ">=3.8"
-dependencies = []  # 如果有依赖，在这里添加
+requires-python = ">=3.10"
+dependencies = [
+    "magic-base>=0.1.2",
+]  # 如果有依赖，在这里添加
 
 [project.urls]
-Homepage = "https://github.com/wxd123/magic-data"
+Homepage = "https://github.com/wxd123/magic-vedio"
 
 
 
